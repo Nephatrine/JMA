@@ -1,0 +1,3 @@
+[submodule "Source/External/GLFW"]
+	path = Source/External/GLFW
+	url = https://github.com/Nephatrine/glfw.git
