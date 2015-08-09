@@ -75,10 +75,8 @@ add_executable(JMA-Client
 		Client/JMA-Client.rc
 		Client/Main.cpp)
 target_link_libraries(JMA-Client glfw ${GLFW_LIBRARIES})
-if(UNIX)
-	set_target_properties(JMA-Client PROPERTIES
-			POSITION_INDEPENDENT_CODE ON)
-endif()
+set_target_properties(JMA-Client PROPERTIES
+		POSITION_INDEPENDENT_CODE ON)
 if(MSVC)
 	set_target_properties(JMA-Client PROPERTIES
 			LINK_FLAGS "/ENTRY:mainCRTStartup")
