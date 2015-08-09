@@ -28,6 +28,8 @@
 *.app
 
 # Visual Studio
+ipch
 *.opensdf
 *.sdf
 *.suo
+VC12
